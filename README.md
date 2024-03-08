@@ -55,7 +55,7 @@ You must setup the config file for launching experiments, providing paths to you
 Below we assume the data is stored at `DATA_PATH` and the trained models are stored at `DATA_CKPT`.
 
 ### Offline Dataset and Goals
-Download the simulation data and goals from [here](https://drive.google.com/file/d/1o-jSgxibTH4FL6emFzUEQNkSfn7jdRus/view?usp=sharing). Alternatively, you can recollect a new dataset by running
+Collect a dataset by running
 ```
 python shapenet_scripts/4dof_rotate_td_pnp_push_demo_collector_parallel.py --save_path DATA_PATH/ --name env6_td_pnp_push --downsample --num_threads 4
 ```
